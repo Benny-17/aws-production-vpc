@@ -1,4 +1,4 @@
-### **4️⃣ `bastion-host.md` → Bastion Host Setup & SSH Access**  
+### **`bastion-host.md` → Bastion Host Setup & SSH Access**  
 **What to include:**  
 - **Launch a Bastion Host in a Public Subnet**  
 - **Connect to Bastion via SSH (MobaXterm)**  
