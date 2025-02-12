@@ -23,12 +23,12 @@ Attach the ALB to a Target Group
   echo "Hello from $(hostname)" > /var/www/html/index.html
   sudo systemctl restart apache2
 
-2️⃣ Create an Auto Scaling Group
+## 2️⃣ Create an Auto Scaling Group
 Attach the Launch Template
 Select Private Subnets
 Set Minimum Instances = 2, Maximum = 4
 Attach to an existing Target Group
-3️⃣ Create an ALB
+## 3️⃣ Create an ALB
 Go to Load Balancer Dashboard → Create ALB
 Select Public Subnets
 Attach ALB Security Group
