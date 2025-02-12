@@ -65,7 +65,7 @@ python3 -m http.server 8000
 
 📢 How to Use This Repository?
 1️⃣ Clone the repository:
-git clone https://github.com/your-github-username/aws-production-vpc.git
+git clone https://github.com/benny17/aws-production-vpc.git
 cd aws-production-vpc
 
 2️⃣ Follow the setup-instructions folder for step-by-step guides.
