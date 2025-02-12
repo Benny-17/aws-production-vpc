@@ -1,4 +1,4 @@
-### ** `private-server-setup.md` → Testing Private Server & NAT Gateway**  
+###  `private-server-setup.md` → Testing Private Server & NAT Gateway**  
 **What to include:**  
 - **Create a test file inside private instances**  
 - **Run a Python HTTP server on port 8000**  
@@ -12,11 +12,11 @@
 
 echo "Hello from Private Server" > index.html
 
-2️⃣ Run a Simple Python HTTP Server
+## 2️⃣ Run a Simple Python HTTP Server
 
 python3 -m http.server 8000
 
-3️⃣ Test Connectivity
+## 3️⃣ Test Connectivity
 From the Bastion Host, test if it's running:
 
 curl http://10.0.10.226:8000
