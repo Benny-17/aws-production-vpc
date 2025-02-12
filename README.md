@@ -16,12 +16,12 @@ This setup includes:
 -  Python-based HTTP server on private instances for testing connectivity
 
 🛠️ How This Was Built (Manual Setup Process)
-1️⃣ VPC Creation
+1️. VPC Creation
 Created a VPC with two public and two private subnets (spread across two AZs).
 Configured route tables:
 Public subnets → Internet Gateway (IGW) for external access.
 Private subnets → NAT Gateway (NGW) for secure outbound internet access.
-2️⃣ Auto Scaling Group (ASG) & Launch Template
+2️. Auto Scaling Group (ASG) & Launch Template
 Created an EC2 Launch Template with:
 AMI (Amazon Linux 2/Ubuntu)
 Instance type (e.g., t2.micro)
