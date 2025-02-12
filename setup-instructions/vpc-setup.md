@@ -1,5 +1,3 @@
-📂 setup-instructions
-
 vpc-setup.md → VPC, Subnets & Routing Setup
 
 What to include:
