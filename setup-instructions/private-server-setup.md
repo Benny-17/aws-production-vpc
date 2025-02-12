@@ -25,7 +25,5 @@ From the Internet, test ALB:
 http://your-alb-dns-name
 
 
-## **🚀 Next Steps**
-1️⃣ **Copy & Paste these files into your GitHub repository.**  
-2️⃣ **Update the AWS details with your actual values.**  
-3️⃣ **Push the repo to GitHub and share the link!**  
+## **Important**
+1️⃣ **Update the AWS details with your actual values.**  
