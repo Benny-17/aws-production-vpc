@@ -1,5 +1,7 @@
-📂 setup-instructions/
-1️⃣ vpc-setup.md → VPC, Subnets & Routing Setup
+📂 setup-instructions
+
+vpc-setup.md → VPC, Subnets & Routing Setup
+
 What to include:
 
 Create a VPC (CIDR: 10.0.0.0/16)
@@ -9,11 +11,8 @@ Create Route Tables:
 Public Route Table → Associate Public Subnets & Route to IGW
 Private Route Table → Associate Private Subnets & Route to NAT Gateway
 Create NAT Gateways (one per AZ) in Public Subnets
-📌 Example Content for vpc-setup.md
 
-md
-Copy
-Edit
+📌 Example Content for vpc-setup.md
 # VPC Setup for Production Environment
 
 ## 1️⃣ Create a VPC
