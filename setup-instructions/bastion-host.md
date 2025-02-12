@@ -16,7 +16,7 @@
 
 ssh -i your-key.pem ubuntu@<BASTION-PUBLIC-IP>
 
-3️⃣ SSH into Private Instances from Bastion Host
+## 3️⃣ SSH into Private Instances from Bastion Host
 
 ssh -i your-key.pem ubuntu@10.0.10.226
 
