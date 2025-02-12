@@ -1,37 +1,31 @@
-private-server-setup.md → Connecting & Testing Private Server
-🔹 What It Does
-Private servers don’t have public IPs.
-Can only be accessed via the Bastion Host.
-Can connect to the internet using a NAT Gateway.
-🛠 Steps to Access & Test Private Server
+### ** `private-server-setup.md` → Testing Private Server & NAT Gateway**  
+**What to include:**  
+- **Create a test file inside private instances**  
+- **Run a Python HTTP server on port 8000**  
+- **Test connectivity via ALB**  
 
-1️⃣ Connect to Private Instance via Bastion
-Once inside the Bastion Host, use SSH to access a private instance:
+📌 **Example Content for `private-server-setup.md`**  
 
-ssh -i your-key.pem ubuntu@<PRIVATE-IP>
+# Private Server Setup & Testing
 
-📌 Example: If your private server’s IP is 10.0.10.226, use:
-
-ssh -i your-key.pem ubuntu@10.0.10.226
-
-2️⃣ Verify Private Server Connectivity
-Inside the private instance, check network connectivity:
-
-ping google.com  # If using NAT Gateway, this should work
-
-3️⃣ Run a Simple Web Server on Private Server
-In your private instance, create a test page:
+## 1️⃣ Create a Test File
 
 echo "Hello from Private Server" > index.html
 
-Start a basic Python web server:
+2️⃣ Run a Simple Python HTTP Server
 
 python3 -m http.server 8000
 
-Check if it’s running:
+3️⃣ Test Connectivity
+From the Bastion Host, test if it's running:
 
-curl http://localhost:8000
-4️⃣ Test ALB Routing
-Copy your ALB DNS name from AWS.
-Paste it into your browser (http://your-alb-dns-name).
-You should see: "Hello from Private Server".
+curl http://10.0.10.226:8000
+From the Internet, test ALB:
+
+http://your-alb-dns-name
+
+
+## **🚀 Next Steps**
+1️⃣ **Copy & Paste these files into your GitHub repository.**  
+2️⃣ **Update the AWS details with your actual values.**  
+3️⃣ **Push the repo to GitHub and share the link!**  
