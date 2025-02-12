@@ -7,8 +7,8 @@ This project demonstrates how to set up a secure, scalable, and highly available
 
 📌 What This Project Covers
 This setup includes:
-##✅ Virtual Private Cloud (VPC) with public and private subnets across two Availability Zones (AZs)
-##✅ Auto Scaling Group (ASG) in private subnets to ensure scalability & high availability
+- ✅ Virtual Private Cloud (VPC) with public and private subnets across two Availability Zones (AZs)
+- ✅ Auto Scaling Group (ASG) in private subnets to ensure scalability & high availability
 ✅ Application Load Balancer (ALB) in public subnets to distribute traffic to backend servers
 ✅ Bastion Host (Jump Server) in a public subnet for secure SSH access to private instances
 ✅ NAT Gateway in both AZs for internet access from private instances
